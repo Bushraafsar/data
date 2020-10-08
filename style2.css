@@ -1,0 +1,90 @@
+.topbar{
+    background-color: rgb(14, 125, 216);
+    padding: 10px;
+
+}
+
+.h11{
+    font-size: 25px;
+    color: rgb(14, 125, 216);
+    
+
+}
+
+.h22{
+    display:inline-block;
+    color:rgb(14, 125, 216);
+    font-size: 18px;
+    padding-left: 10px;
+}
+.box01{
+    border: solid 2px whitesmoke;
+    background-color: whitesmoke;
+    border-radius: 2px;
+    height: 70px;
+    width: 320px;
+    padding-left:20px;
+    padding-left:40px;
+    padding-top: 5px;
+    margin-right: 10px;
+}
+
+
+.big{
+    display:flex;
+    margin-top: 40px;
+    padding-top: 60px;
+}
+
+.big1{
+    display: flex;
+    padding-left: 25px;
+    background-color: ;
+    
+}
+
+
+.A {
+    padding-left: 90px;
+    padding-right: 270px;
+}
+
+.b1{
+    color:rgba(242, 101, 34, 0.75);
+}
+
+.C3{
+    display:flex;
+    margin-top: 20px;
+    margin-left:30px;
+    margin-right:20px;
+    margin-bottom: 20px;
+    width: 750px;
+
+}
+.C4{
+    display:flex;
+    margin-top: 20px;
+    margin-left:30px;
+    margin-right:20px;
+    margin-bottom: 20px;
+    width: 750px;
+}
+
+.b1{
+    padding-left: ;
+    padding-top: 25px;    
+}
+ul li {
+    list-style: none;
+}
+
+.contact li{
+    display: inline ;
+    padding-left: 5px;
+}
+
+.contact{
+    padding-top: 15px;
+    padding-right; 10px:
+}

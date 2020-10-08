@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+    
+    
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-database.js"></script>
+    
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyBTuAj6q_Ol4lwfDHEtNOMQ3RFq35msDD8",
+          authDomain: "todoapp-fc816.firebaseapp.com",
+          databaseURL: "https://todoapp-fc816.firebaseio.com",
+          projectId: "todoapp-fc816",
+          storageBucket: "todoapp-fc816.appspot.com",
+          messagingSenderId: "843587059060",
+          appId: "1:843587059060:web:7e25d032760a4e3c40c021",
+          measurementId: "G-1ZJE3TZCGM"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+      
+      </script>
+ 
+  
+    
+</head>
+<body>
+    
+    <div class="heading">
+        <h1>Todo App</h1>
+    </div>
+    <div class="item">
+        <div
+        class="time">
+        <h2>My To-Do List</h2>
+
+        </div>
+        <div  >
+            <input id="todoitem" type=text class="work" placeholder="Add to do">
+          
+            
+            <button onclick="addtodo()" class="add"><strong>+</strong></button>
+            <button onclick="delall()" class="add"><i class="fa fa-refresh" style="font-size:14px;color:white"></i></button>
+           
+        
+        </div>
+        <div id="list">
+            <ul>
+    
+            </ul>
+        </div>
+        
+        
+    
+
+    </div>
+    
+    
+<script src="app.js"></script>    
+</body>
+</html>

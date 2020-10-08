@@ -1,0 +1,139 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    background-image: url("bg5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    width:100%;
+    padding:0;
+    margin:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}
+
+.add:hover{
+background-color: orange;
+}
+.heading{
+    font-size: 15px;
+    background-color:rgb(245, 78, 18);
+    color:whitesmoke;
+    padding:0.5px;
+    width:100%;
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+
+
+.item{
+    
+    margin:0 auto;
+    height:500px;
+    width:320px;
+    padding:10px;
+    background-color: white;
+    box-shadow: 2px 2px 20px grey;
+    
+}
+.work{
+    width: 220px;
+    padding:2px;
+    height:30px;
+    outline: none;
+    margin-right: 20px;
+    margin-left: 10px;
+    border: none;
+    border-bottom:2px solid skyblue;
+    background-color: transparent;
+    color:grey;
+    font-size: 18px;
+}
+.add{
+    outline: none;
+    width:25px;
+    height: 25px;
+    border-radius: 40%;
+    background-color:orangered;
+    color:whitesmoke;
+    font-style: bold;
+    border: none;
+}
+.time{
+    text-align: center;
+    color:orangered;
+    background-color:transparent;
+    padding:2px;
+    margin-bottom: 20px;
+    margin-left:0;
+    margin-right: 0;
+   
+}
+li {
+   
+    padding: 10px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+   margin-top: 20px;
+    background: white;
+    border: none;
+    border-radius: 20px;
+    color: rgb(50, 207, 207);
+    font-size: 8px;
+   
+   
+    
+    box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.7),
+      7px 7px 20px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+
+  
+.btn{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #24dbcc;
+    float:right;
+    
+  
+    
+    
+}
+li{
+    color: gray;
+
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    margin-left: 5px;
+    
+}
+ul li.checked {
+    
+    text-decoration: line-through;
+  }
+ul li {
+    cursor: pointer;
+    position: relative;
+    
+    transition: 0.2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;}
+ul {
+    margin: 0;
+    padding: 0;
+  }
+.btnn{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    float:right;
+    color: rgb(36, 219, 204);
+   
+ 
+}
